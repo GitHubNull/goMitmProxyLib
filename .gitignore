@@ -1,0 +1,62 @@
+# 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试二进制文件，由`go test -c`构建
+*.test
+
+# 输出的性能分析文件
+*.prof
+*.out
+
+# 依赖目录
+vendor/
+
+# Go工作空间文件
+go.work
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 覆盖率报告
+coverage.out
+coverage.html
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 证书文件（敏感信息，建议不在版本控制中）
+*.pem
+*.key
+*.crt
+certs/*.key
+certs/*.crt
+!certs/.gitkeep
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 备份文件
+*.bak
+*.backup
+
+# 性能测试输出
+perf-*.txt
+benchmark-*.txt
