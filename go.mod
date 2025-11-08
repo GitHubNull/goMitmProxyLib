@@ -2,6 +2,8 @@ module github.com/mintux/goMitmProxyLib
 
 go 1.22.2
 
+// Apache 2.0 License - See LICENSE file for details
+
 require (
 	github.com/stretchr/testify v1.11.1
 	go.uber.org/zap v1.27.0
